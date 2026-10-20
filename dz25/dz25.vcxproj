@@ -139,11 +139,21 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Book.cpp" />
+    <ClCompile Include="CargoCar.cpp" />
+    <ClCompile Include="Date.cpp" />
     <ClCompile Include="dz25.cpp" />
     <ClCompile Include="PassengerCar.cpp" />
+    <ClCompile Include="Talking_book.cpp" />
+    <ClCompile Include="Voice_recoding.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Book.h" />
+    <ClInclude Include="CargoCar.h" />
+    <ClInclude Include="Date.h" />
     <ClInclude Include="PassengerCar.h" />
+    <ClInclude Include="Talking_book.h" />
+    <ClInclude Include="Voice_recoding.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
